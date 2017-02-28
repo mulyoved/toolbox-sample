@@ -1,22 +1,27 @@
-created using 
+###Used "Create react app" to create 
+
+using 
 - "react-scripts": "0.9.3"
 
-Added 
+###Added 
 - "react-toolbox": "^2.0.0-beta.6"
 - "react-toolbox-themr": "^1.0.2"
 
-Added script
+###Added script
 - "toolbox": "react-toolbox-themr",
 confirmed created correctly
 
+###Edit App.js
 
-Run 
+Add ThemeProvider
+
+###Run 
 
 `npm run toolbox`
  
 `npm run start`
 
-Error
+###Get Error
 
 ```
 Failed to compile.
