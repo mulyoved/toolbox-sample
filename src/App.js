@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import './toolbox/theme.css';
+import theme from './toolbox/theme';
 import ThemeProvider from 'react-toolbox/lib/ThemeProvider';
-import theme from './toolbox/theme'
-import './toolbox/theme.css'
 
-import {Button, IconButton} from 'react-toolbox/lib/button';
+import {Button, IconButton} from 'react-toolbox/lib/button/Button';
 
 
 class App extends Component {
@@ -21,6 +21,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button>Button</Button>
       </div>
       </ThemeProvider>
     );
